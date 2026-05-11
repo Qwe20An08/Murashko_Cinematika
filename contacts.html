@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кинотеатр «Cinematica» — Контакты</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- ШАПКА -->
+    <header class="header">
+        <div class="container header-content">
+            <a href="index.html" class="logo-area" aria-label="На главную страницу">
+                <div class="logo-box" aria-hidden="true">К</div>
+                <h1 class="site-title">КИНОТЕАТР «Cinematica»</h1>
+            </a>
+            <nav class="nav" aria-label="Основная навигация">
+                <a href="index.html"    class="nav-link">ГЛАВНАЯ</a>
+                <a href="schedule.html" class="nav-link">РАСПИСАНИЕ</a>
+                <a href="history.html"  class="nav-link">ИСТОРИЯ</a>
+                <a href="contacts.html" class="nav-link active" aria-current="page">КОНТАКТЫ</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- КОНТЕНТ -->
+    <main class="container main-content" id="main">
+
+        <div class="section-title">
+            <div class="indicator orange" aria-hidden="true"></div>
+            <h2>КОНТАКТЫ И СХЕМА ПРОЕЗДА</h2>
+        </div>
+
+        <div class="contacts-layout">
+
+            <!-- ЛЕВАЯ КОЛОНКА -->
+            <section aria-labelledby="contact-info-heading">
+                <div class="section-title sub-title">
+                    <div class="indicator dark" aria-hidden="true"></div>
+                    <h3 id="contact-info-heading">КОНТАКТНАЯ ИНФОРМАЦИЯ</h3>
+                </div>
+
+                <address>
+                    <dl>
+                        <div class="contact-item">
+                            <dt class="label">АДРЕС</dt>
+                            <dd class="value">г. Минск, пр. Независимости, 13</dd>
+                        </div>
+                        <div class="contact-item">
+                            <dt class="label">ТЕЛЕФОН</dt>
+                            <dd class="value">
+                                <a href="tel:+375171234567">+375 (17) 123-45-67</a>
+                            </dd>
+                        </div>
+                        <div class="contact-item">
+                            <dt class="label">EMAIL</dt>
+                            <dd class="value">
+                                <a href="mailto:cinema@centralny.by">cinema@centralny.by</a>
+                            </dd>
+                        </div>
+                        <div class="contact-item">
+                            <dt class="label">РЕЖИМ РАБОТЫ</dt>
+                            <dd class="value">Ежедневно: 09:00 — 23:00</dd>
+                        </div>
+                    </dl>
+                </address>
+
+                <div class="section-title sub-title" style="margin-top:40px;">
+                    <div class="indicator dark" aria-hidden="true"></div>
+                    <h3>СХЕМА ПРОЕЗДА</h3>
+                </div>
+
+                <figure class="map-placeholder">
+                    <img src="./img/map.png"
+                        alt="Карта: проспект Независимости, Минск">
+                </figure>
+            </section>
+
+            <!-- ПРАВАЯ КОЛОНКА: ФОРМА -->
+            <section aria-labelledby="feedback-heading">
+                <div class="feedback-card">
+                    <h3 id="feedback-heading">ОБРАТНАЯ СВЯЗЬ</h3>
+                    <p class="form-desc">Заполните форму, чтобы оставить отзыв или задать вопрос.</p>
+
+                    <div id="contactFormWrap">
+                        <div class="form-group">
+                            <label for="contactName">ИМЯ</label>
+                            <input type="text" id="contactName" name="name"
+                                   placeholder="Введите ваше имя"
+                                   autocomplete="given-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactEmail">EMAIL</label>
+                            <input type="email" id="contactEmail" name="email"
+                                   placeholder="example@mail.ru"
+                                   autocomplete="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactMessage">СООБЩЕНИЕ</label>
+                            <textarea id="contactMessage" name="message"
+                                      placeholder="Ваше сообщение..."
+                                      required></textarea>
+                        </div>
+                        <button type="button" class="submit-btn" id="contactSubmit">ОТПРАВИТЬ</button>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- ФУТЕР -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h4 class="footer-heading">КОНТАКТНАЯ ИНФОРМАЦИЯ</h4>
+                <div class="footer-line"></div>
+                <p>г. Минск, пр. Независимости, 13</p>
+                <p>Тел: +375 (17) 123-45-67</p>
+                <p>Email: cinema@centralny.by</p>
+            </div>
+            <div class="footer-socials">
+                <h4 class="footer-heading">МЫ В СОЦСЕТЯХ</h4>
+                <div class="footer-line"></div>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/kinoteatr.official/" class="social-link" target="_blank">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" aria-hidden="true">
+                            <rect x="2" y="2" width="20" height="20" rx="6"/>
+                            <circle cx="12" cy="12" r="5"/>
+                            <circle cx="17.5" cy="6.5" r="1.5" fill="white" stroke="none"/>
+                        </svg>
+                    </a>
+                    <a href="https://x.com/kinoteatr_kino" class="social-link" target="_blank">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4l11.733 16H20L8.267 4z"></path>
+                            <path d="M4 20l6.768-6.768m2.464-2.464L20 4"></path>
+                        </svg>
+                    </a>
+                    <a href="https://t.me/anndrey1337" class="social-link" target="_blank">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 2L2 8.5L9.5 11L18 5L11 13L11.5 21L15 17.5L19 21L22 2Z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">© 2026 Кинотеатр «Cinematica». Студенческий проект.</p>
+    </footer>
+
+    <script src="./js/contacts.js"></script>
+
+</body>
+</html>
