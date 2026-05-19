@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cinema>
+    <!-- Данные для страницы Контакты -->
+    <contacts>
+        <address>г. Минск, пр. Независимости, 13</address>
+        <phone>+375 (17) 123-45-67</phone>
+        <email>cinema@centralny.by</email>
+        <workHours>Ежедневно: 09:00 — 23:00</workHours>
+    </contacts>
+
+    <movies>
+        <movie id="1" day="today">
+            <title>ИНТЕРСТЕЛЛАР</title>
+            <genre>Фантастика, Драма</genre>
+            <desc>Человечество стоит на грани вымирания, и бывший пилот НАСА вынужден покинуть умирающую Землю, чтобы найти новый дом среди далёких звёзд. Путешествие через червоточину превращается в испытание временем, любовью и невероятными тайнами Вселенной.</desc>
+            <image>https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/78c36c0f-aefd-4102-bc3b-bac0dd4314d8/3840x</image>
+            <sessions>10:00, 14:00, 18:00, 22:00</sessions>
+        </movie>
+        <movie id="2" day="today">
+            <title>НАЧАЛО</title>
+            <genre>Триллер, Фантастика</genre>
+            <desc>Гениальный мастер снов Кобб получает опасный заказ — не украсть идею, а внедрить её в подсознание жертвы с помощью многоуровневого сна. Когда границы между реальностью и иллюзией стираются, команда должна выжить в мире, где законы физики зависят только от воображения.</desc>
+            <image>https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/8ab9a119-dd74-44f0-baec-0629797483d7/600x900</image>
+            <sessions>11:30, 15:00, 20:00</sessions>
+        </movie>
+        <movie id="3" day="today">
+            <title>ПАРАЗИТЫ</title>
+            <genre>Драма, Триллер</genre>
+            <desc>Бедное, но хитроумное семейство проникает в роскошный дом богачей, выдавая себя за высококлассных специалистов. Обманчивая идиллия превращается в напряжённую борьбу двух миров, которая вскрывает тёмные тайны и приводит к непредсказуемой развязке.</desc>
+            <image>https://kinopoisk-ru.clstorage.net/rx1e55216/4a661dVn/M7xOAlYYSpOKn3VmpByjmPgM4RyuenEBwbzHffgC0PwvKrkWR95jFCMk8BNEoKMw5hhBuXqrKQtReYjYj5N0w-YoPiYGbGvnCi90ZrDptnk9yGD_vdkn45IfcI-bMQboSz6408ILtxADwWQm9USHdoBpFbi_mGyeEe4NzO9y87Pinf0zxJupBivsZLFV7sJbOR2knuxpxyAw_NAMSAE1e1jPDnNSCgajIFFH5QG1JTWj7-QYrNpcnFOPjvzPsfNAkg2tIZZ4GPc7PQSRJ_8hGhiuds0O6RaDEb6RnnmhtpsKz4xBw7r3kcPjR_UwJ_RH87w12HyqLNxDLG_97VHgAvFcX3Nky5kHGT4G4CUdE4p7HQZvL7g2weDv0R0psaSL-I_tIPAbtxGCcrRmMAW3dNNPt6h8Wp09QMxMP23wM9OT7lyxVul6BwkelRB3LgFI-GxU7SxJxFHQ7pMOGMEkW4h9fyLTqwRAAGJ2BzLGhHcQz7bbjpk-3uLvrb8soVLQ8d5_AmZbKIeqPrcQhcwhyRkMFy_sO1dTQMyBjduwNQsrfl0RoxkGwxIQxwVSJRSlUa_2a81pbi9ATtz9HvJTUdNeLpBHaZqlyt6Wcmbd8VrrDXds3nm0wqFssM1Iw-armByc0ELrd0Jhw9RX40d3t6Evxet8SX6NM9_fbpyBUKLhDD6BB5uJdgi_tqNH74JaGv337Oz5JsAgTLEvS2D0aAqMThBgGDUCcFK1tHFl9xbhTgRJL7t9XIBerZ_MInEjcN6tQrSY6bQp7HTx13-CKkktdb8OuxdBEwyCzzkQ5yuajexjUbolU5KRVfcDd4SXgY932m3rjQyQXf4OvpDy8oEP37PGWejHGQ-m8BS-0dqozlRevXiWguOtAq84MWdLm08cUeK5JyJTU1Q30Qe1d7LdJniciG7-od6tXwyh4XFBTZ9QZBhZhMpeBNCm__IaWW8Hzp-6BrLCvaF8GNNEeyre7VFh2Yaz4mJldDInFAZSrdY6LUvsXkGPnszt0VMzou-fAVZIOgU6vASx5y5ieoqfFU09W7RSIb0wL3kD1Vl63b6zgIh2wbNSp0VhReaVwW6VGYz4LG5THLzO7LMgo-NvnPOkWymHeQ5E0gXOY1jqbveMDWqWofBt0UwZY0daSu8c0lOp1xFyEnRnAIeW91G-tnttSJ5fI8yv3u1zUfLwz36DNMsaxClsFcJm7GBpiI-mjx16JvCg_eM9qgLU21r_bqPRmjdzI6DHl0Ak1kcAvTYqDslerQM-bs9901PQQTxew_d5utR4HeQB127hqik9lIx9CWag093RPZpitGtq30ziANglQYPglmRTdObVwx0H-j77jd7TLI3vXKPAgRKd7HKXiSs3WU0kYBdMA8hYT4c-7DsnQJDPc36Ls1dpu-6_QCLY9nKjAKc3MfSWhUO9lQpNWAwu4s4djJ8zAuFgjX-TlFh49Aj8JTLU_uAqiSw1XB9rtlNB3VK9ewD2-Kqs3rIQ6RWBsgK0RuMkN3fwnLZLT9uP30JOrZ9foZOh889c49VIyYbovRaBZZ3himsvxZ8vWbZSgE7CP5nwxwvpb38TM_mk4KJDxJbytzZHM__2O68IDuzyDQ9NvxLis2D_fDGnqDnnK05lIyVNkCuZ_8ac7gunY_McE-0bkRaomt--kcJIRrGwsoZUIYQltgC-lQmvacwvMh_dnI4jQTLRH27R9QpIpSiuVLJX7DBI6ExnvHyoR5EQ3XEeWFNkWepu3oDSW_bQExMUFDK25OTRjJX7DypNPoGMPXzNQRFD0I3fMnRqadcqfZaDN32h68tfl5xcmwWC4dwRj8kgp4qZ3G2zU4sXceHgp5SBBdc38v6Vy96ZPe6j3Z6971OREOMMLNH0e-lH2qxl8Tat8zgoHzeNTHmWsrBs0-9KItbbiK2cQhBqF8KRc9VkcAaGdfEsthpPeTyMU42srs9RcvGgDdxBxSma9wk99gKlbhI4qW7HHPxrlINTTIM-WjF0qyot7uHw63UhkECVJAKE9ARRv-U77UuOjoBODy3vkZFR8A8PQ7eqa8Q4vqbBxP2wehq9lZ8cqkdygR_gDUvi9hubPz1gM7sEcpJDl9aQBtc38XwXup0rni6CbF3tPeBDU6Keb0NWuZr3O8wFUXfN4nqoPjSMXwqXg9McIc3pMwYrij_do8OJxXJjgvYmACUW5CFN9avteVx-06y-r31zUsPwP68SN2h6lag-FqFlHqLrm94VLd559HNCjCMdOzL0e1vejuLSuhUzseK1NFPVJ6VhrwX7TPp8rjMs7p0tQTFzUV39A9Y5yNeIXXayF0-wK4jPlOxsexUSga0h3ilg1ZqY7mzRwIgWQhBgpXTChNbE4B2X6WyrHO_A36_tPXIhYyFeHlPXChvl6-8EANasckr7LfV_DqgEw8Bt8D-IATebKN5OASPppYMRE-a34zXERlFehLo_ujx8A14fHM8iENNCrx0gRyvrROtsZMHnHBJK-29HXW8rRPMzLsPvOdEli4gMryHw2STDsWKWNHC31aRivib6PJt973LOvX2dcQAx0z5M01bpuRd6viYyls-TmsnPpRzfajVQ4x-jb3giFoiazO7S8Zs00RGj5-Yxx1T20O0FyF87TB5T7L6-r1ADEKE9PwJ0GwvlWJ9WcpbMMHhYTxW8bDkn4MGekr_b43VLqU2csBE5d9CBsQelAOfkdZKMh9lPW34d8G0On-yRcOGhjF9T9usKpepepyDnrJLr2q3Uzz95psLRbdHMeZKGy9i9LkFh-fUxUjNElFPnB7TyrWW4TElMnuFvPi7t0DDiop9c0LaYKJd7XgQzBZ8Ty6k9xzxveyeikW6g3JgzpilqLQwC8IpksqORxrRhtUU3E3-0iq5Yrs7A3K8tbtJjseLcrOIGGetVG14WMWcd8xpqrCcuD1smkjOsIJyq0LQ5-O0NQ_CoRsGREJS3YVVGl8DfhQke-R0O4E88M</image>
+            <sessions>13:00, 17:30, 21:00</sessions>
+        </movie>
+        <movie id="4" day="today">
+            <title>ДЖОКЕР</title>
+            <genre>Драма, Криминал</genre>
+            <desc>История Артура Флека — одинокого комика, которого общество равнодушно топчет, пробуждая в нём тьму. Постепенно он превращается в харизматичного безумца, чей смех становится символом хаоса, захлестнувшего Готэм.</desc>
+            <image>https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/84934543-5991-4c93-97eb-beb6186a3ad7/600x900</image>
+            <sessions>16:00, 19:30, 23:00</sessions>
+        </movie>
+        <movie id="5" day="today">
+            <title>ТЕМНЫЙ РЫЦАРЬ</title>
+            <genre>Боевик, Триллер</genre>
+            <desc>Бэтмен сталкивается с умнейшим и опаснейшим врагом — Джокером, который не желает денег и власти, а стремится лишь доказать, что любой человек способен на безумие. Грань между героем и злодеем становится пугающе тонкой.</desc>
+            <image>https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/0fa5bf50-d5ad-446f-a599-b26d070c8b99/600x900</image>
+            <sessions>12:00, 18:00</sessions>
+        </movie>
+        <movie id="6" day="today">
+            <title>МСТИТЕЛИ</title>
+            <genre>Фантастика, Боевик</genre>
+            <desc>Когда бог хаоса Локи угрожает поработить Землю, величайшие герои планеты впервые объединяются в одну команду. Железный Человек, Капитан Америка, Тор, Халк и другие должны преодолеть взаимные конфликты, чтобы остановить инопланетное вторжение.</desc>
+            <image>https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/972b7f43-9677-40ce-a9bc-02a88ad3919d/600x900</image>
+            <sessions>09:00, 15:30, 22:00</sessions>
+        </movie>
+        <movie id="7" day="today">
+            <title>ЗЕЛЕНАЯ МИЛЯ</title>
+            <genre>Драма, Фэнтези</genre>
+            <desc>В тюремном блоке для смертников появляется загадочный и невероятно добрый гигант Джон Коффи, приговорённый за страшное преступление. Надзиратель Пол Эджкомб начинает подозревать, что их новый заключённый обладает даром исцеления и скрывает тайну, способную пошатнуть представление о справедливости.</desc>
+            <image>https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/4057c4b8-8208-4a04-b169-26b0661453e3/600x900</image>
+            <sessions>14:40, 20:20</sessions>
+        </movie>
+        <movie id="8" day="today">
+            <title>МАТРИЦА</title>
+            <genre>Фантастика</genre>
+            <desc>Хакер Нео узнаёт, что привычный мир — всего лишь цифровая иллюзия, созданная машинами для порабощения человечества. Выбрав красную таблетку, он вступает в жестокую войну за освобождение разума и открывает в себе невероятные способности Избранного.</desc>
+            <image>https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/cf1970bc-3f08-4e0e-a095-2fb57c3aa7c6/600x900</image>
+            <sessions>13:30, 19:00, 23:15</sessions>
+        </movie>
+
+        <movie id="9" day="tomorrow">
+            <title>ДЮНА: ЧАСТЬ 2</title>
+            <genre>Фантастика, Приключения</genre>
+            <desc>Пол Атрейдес, объединившись с пустынными фрименами, начинает масштабную месть за гибель своего рода. Он принимает судьбу мессии и ведёт армии к священной войне, чтобы взять под контроль главную силу галактики — спайс и саму планету Арракис.</desc>
+            <image>https://avatars.mds.yandex.net/get-kinopoisk-image/10953618/20f20a76-e8d8-4b04-9041-1f044d87e55a/600x900</image>
+            <sessions>10:00, 15:00, 20:00</sessions>
+        </movie>
+        <movie id="10" day="tomorrow">
+            <title>ОППЕНГЕЙМЕР</title>
+            <genre>Биография, Драма</genre>
+            <desc>История гениального физика Роберта Оппенгеймера, который возглавил Манхэттенский проект и навсегда изменил мир, создав атомную бомбу. Триумф науки обернулся мучительными нравственными терзаниями и политическим предательством, навсегда похоронив его душу.</desc>
+            <image>https://avatars.mds.yandex.net/get-kinopoisk-image/4486454/c5292109-642c-4ab0-894a-cc304e1bcec4/600x900</image>
+            <sessions>11:00, 16:30, 21:00</sessions>
+        </movie>
+        <movie id="11" day="tomorrow">
+            <title>БАРБИ</title>
+            <genre>Комедия, Приключения</genre>
+            <desc>Стереотипная Барби из идеального Барбиленда внезапно сталкивается с экзистенциальным кризисом и вынуждена отправиться в реальный мир. Там она знакомится с несовершенствами жизни и находит собственную уникальность, пока за ней по пятам следуют шпионы матриархата.</desc>
+            <image>https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/f0410960-9002-46a8-bbf3-6acc6a69c411/600x900</image>
+            <sessions>14:00, 19:00</sessions>
+        </movie>
+        <movie id="12" day="tomorrow">
+            <title>БОЙЦОВСКИЙ КЛУБ</title>
+            <genre>Драма, Триллер</genre>
+            <desc>Страдающий бессонницей клерк встречает саркастичного мыловара Тайлера Дердена, и вместе они основывают подпольный клуб драк без правил. То, что начиналось как выплеск агрессии, постепенно перерастает в анархическое движение, а правда оказывается куда шокирующей, чем можно было представить.</desc>
+            <image>https://avatars.mds.yandex.net/get-ott/1672343/2a0000019a2f25469292045d741a2afdddd3/600x900</image>
+            <sessions>18:00, 23:00</sessions>
+        </movie>
+        <movie id="13" day="tomorrow">
+            <title>ГЛАДИАТОР</title>
+            <genre>Драма, Боевик</genre>
+            <desc>Великий римский генерал Максимус, преданный императором Коммодом, становится рабом и теряет всё. Ведомый жаждой мести, он поднимается как легендарный гладиатор, чтобы завоевать сердца толпы и вернуть справедливость, даже зная, что его путь ведёт к трагическому финалу.</desc>
+            <image>https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/7c3460dc-344d-433f-8220-f18d86c8397d/600x900</image>
+            <sessions>12:00, 17:00, 21:30</sessions>
+        </movie>
+        <movie id="14" day="tomorrow">
+            <title>ЛЕОН</title>
+            <genre>Криминал, Драма</genre>
+            <desc>Наёмный убийца Леон, чья жизнь — череда холодных контрактов и одиночества, неожиданно становится защитником двенадцатилетней Матильды. Она жаждет отомстить за гибель семьи, а он учит её искусству выживания, пока между ними зарождается трогательная, почти семейная связь.</desc>
+            <image>https://avatars.mds.yandex.net/get-ott/200035/2a0000019851a0430ecb10631ab582ebe13f/600x900</image>
+            <sessions>13:30, 19:30</sessions>
+        </movie>
+        <movie id="15" day="tomorrow">
+            <title>ОСТРОВ ПРОКЛЯТЫХ</title>
+            <genre>Триллер, Детектив</genre>
+            <desc>Судебный маршал Тедди Дэниелс прибывает на мрачный остров-лечебницу для душевнобольных, чтобы расследовать исчезновение опасной пациентки. Чем глубже он погружается в тайны клиники, тем яснее понимает, что реальность ускользает, и самый страшный секрет может скрываться в его собственном сознании.</desc>
+            <image>https://avatars.mds.yandex.net/get-ott/224348/2a00000198528f853134273ea785844e1c8a/600x900</image>
+            <sessions>16:00, 22:00</sessions>
+        </movie>
+        <movie id="16" day="tomorrow">
+            <title>ГАРРИ ПОТТЕР</title>
+            <genre>Фэнтези, Приключения</genre>
+            <desc>Обычный мальчик Гарри, живущий в чулане под лестницей, в одиннадцатый день рождения узнаёт, что он волшебник и зачислен в школу магии Хогвартс. Там его ждут верные друзья, древние тайны и встреча с тёмным магом, чьё имя нельзя произносить вслух.</desc>
+            <image>https://avatars.mds.yandex.net/get-kinopoisk-image/10835644/49298db8-baa7-487e-8aa8-61a485958897/600x900</image>
+            <sessions>10:00, 14:00, 18:00</sessions>
+        </movie>
+    </movies>
+</cinema>
